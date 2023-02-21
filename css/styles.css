@@ -148,6 +148,14 @@ body {
   background: #ffffff;
 }
 
+.list {
+  list-style: none;
+}
+
+.link-deco {
+  text-decoration: none;
+}
+
 /* Hero Section */
 
 .hero-background {
