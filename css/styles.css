@@ -144,6 +144,10 @@ body {
 
 /* Web Studio */
 
+.main {
+  background: #ffffff;
+}
+
 /* Hero Section */
 
 .hero-background {
@@ -168,10 +172,70 @@ body {
 }
 /* /Hero Section */
 
-/* Our Team - Section 3*/
+/* Section 1 */
+
+.main-section1-h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.main-section1-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* /Section 1 */
+
+/* Section 2 */
+.main-section2-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #2e2f42;
+}
+/* /Section 2 */
+
+/* Section 3*/
+
+.main-section3-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #2e2f42;
+}
+
+.our-team-h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.our-team-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
 
 .team-section {
   background: #f4f4fd;
 }
 
-/* /Our Team - Section 3*/
+/* /Section 3*/
