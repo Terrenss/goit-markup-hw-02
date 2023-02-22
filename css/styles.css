@@ -1,4 +1,10 @@
 /* Portfolio */
+
+:root {
+  --main-title-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --button-section-color: #4d5ae5;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -11,7 +17,7 @@ body {
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: var(--main-title-color);
   text-transform: uppercase;
 }
 
@@ -23,7 +29,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .header-list-item1:hover,
@@ -35,7 +41,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .header-list-item2:hover,
@@ -47,7 +53,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .header-list-item3:hover,
@@ -88,8 +94,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--button-section-color);
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .button-item1:hover,
@@ -103,8 +110,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--button-section-color);
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .button-item2:hover,
@@ -118,8 +126,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--button-section-color);
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .button-item3:hover,
@@ -133,8 +142,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--button-section-color);
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .button-item4:hover,
@@ -148,8 +158,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--button-section-color);
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .button-item5:hover,
@@ -166,14 +177,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .foto-section-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 /* /Portfolio Foto Section common */
 
@@ -211,6 +222,7 @@ body {
   line-height: 1.5;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -226,14 +238,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .main-section1-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 
 /* /Section 1 */
@@ -242,7 +254,7 @@ body {
 .main-section2-h2 {
   font-size: 36px;
   line-height: 1.1;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 /* /Section 2 */
 
@@ -251,21 +263,21 @@ body {
 .main-section3-h2 {
   font-size: 36px;
   line-height: 1.1;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .our-team-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 .our-team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 
 .team-section {
