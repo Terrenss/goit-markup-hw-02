@@ -5,11 +5,14 @@ body {
 /*   Header */
 
 .header-logo {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2e2f42;
+  text-transform: uppercase;
 }
 
 .logo-color {
@@ -195,7 +198,6 @@ body {
 }
 .hero-title {
   font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
   color: #ffffff;
@@ -238,7 +240,6 @@ body {
 
 /* Section 2 */
 .main-section2-h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   color: #2e2f42;
@@ -248,7 +249,6 @@ body {
 /* Section 3*/
 
 .main-section3-h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   color: #2e2f42;
@@ -287,6 +287,8 @@ body {
   font-size: 18px;
   line-height: 1.2;
   color: #f4f4fd;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   font-weight: 400;
